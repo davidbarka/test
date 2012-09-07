@@ -30,6 +30,7 @@
 					<ul class="dropdown-menu">
 						<!-- dropdown menu links -->
 						<li><a href="#">English</a></li>
+						<li><a href="#">Norsk</a></li>
 					</ul>
 				</div>
 			</div>
@@ -45,7 +46,8 @@
 					<p>Find mentors and trainees with the right qualifications, all
 						in one place.</p>
 					<p>
-						<a class="btn btn-info btn-large" href="http://www.youtube.com/watch?v=nJ6r1XufCQU&feature=g-upl">Learn more</a>
+						<a class="btn btn-info btn-large" href="#dropDownMsg" data-toggle="modal">Learn more</a>
+						<!-- <a href="#" id="example" class="btn btn-info btn-large" rel="popover"  data-content=""data-original-title="Twitter Bootstrap Popover">Info</a> -->
 					</p>
 				</div>
 				<!-- right side -->
@@ -71,5 +73,23 @@
 			</div>
 		</div>
 	</div>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- Popover -->
+	<script>  
+$(function ()  
+{ $("#example").popover({placement:'top'});  
+});  
+</script>  
 </body>
+<!-- Modal -->
+<div id="dropDownMsg" class="modal hide fade in" style="display: none;">
+	<div class="modal-header">
+		<a class="close" data-dismiss="modal">X</a>
+		<h3>Info</h3>
+	</div>
+	<div class="modal-body">
+		<iframe width="525" height="315" src="http://www.youtube.com/embed/nJ6r1XufCQU" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
 </html>
