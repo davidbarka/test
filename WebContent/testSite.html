@@ -15,86 +15,103 @@
 </style>
 <body class="contentBox">
 	<div class="container">
-		<form class="well">
-			<ul class="nav nav-pills">
-				<li class="active"><a href="#"><h4>Home</h4></a></li>
-				<li><a href="#"><h4>About</h4></a></li>
-				<li><a href="#"><h4>Products</h4></a></li>
-				<li><a href="#"><h4>Contact</h4></a></li>
-			</ul>
-		</form>
-		<div class="row-fluid">
-			<form class="well span3">
-				<input type="text" class="span12" placeholder="Username" /><br />
-				<input type="password" class="span12" placeholder="Password" /> <br />
-				<button class="btn btn-primary btn-block">Submit</button>
-				<button class="btn btn-block ">Clear</button>
-			</form>
-			<form class="well span6">
-				<table class="table table-hover">
-					<thead>
-						<tr>
-							<th>Name</th>
-							<th>Age</th>
-							<th>City</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>David Barka</td>
-							<td>26</td>
-							<td>Stavanger</td>
-						</tr>
-						<tr>
-							<td>Geir</td>
-							<td>47</td>
-							<td>Oslo</td>
-						</tr>
-						<tr>
-							<td>Tom</td>
-							<td>31</td>
-							<td>Sandnes</td>
-						</tr>
-						<tr>
-							<td>Kari</td>
-							<td>22</td>
-							<td>Stavanger</td>
-						</tr>
-					</tbody>
-				</table>
-			</form>
-			<form class="well span3">
-				<table class="table table-hover">
-					<thead>
-						<tr>
-							<th></th>
-							<th>Contacts</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td><img alt="" src="img/test.jpg"></td>
-							<td>David Barka</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>Ola Nordmann</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>Ola Nordmann</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>Ola Nordmann</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>Ola Nordmann</td>
-						</tr>
-					</tbody>
-				</table>
-			</form>
+		<!-- top menu -->
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="brand" href="#">MentorFind</a>
+				<ul class="nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Contact</a></li>
+					<form class="navbar-search pull-right">
+							<input type="text" class="search-query" placeholder="Search">
+						</form>
+				</ul>
+			</div>
+			<br/>
+			<div class="row-fluid">
+				<!--left column -->
+				
+					<form class="well span3">
+						<input type="text" class="span12" placeholder="Username" /><br />
+						<input type="password" class="span12" placeholder="Password" /> <br />
+						<button class="btn btn-primary btn-block">Submit</button>
+						<button class="btn btn-block ">Clear</button>
+					</form>
+				
+				<!--middle column -->
+				
+					<form class="well span6">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Age</th>
+									<th>City</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>David Barka</td>
+									<td>26</td>
+									<td>Stavanger</td>
+								</tr>
+								<tr>
+									<td>Geir</td>
+									<td>47</td>
+									<td>Oslo</td>
+								</tr>
+								<tr>
+									<td>Tom</td>
+									<td>31</td>
+									<td>Sandnes</td>
+								</tr>
+								<tr>
+									<td>Kari</td>
+									<td>22</td>
+									<td>Stavanger</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				
+				<!--right column -->
+				
+					<form class="well span3">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Contacts</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><img alt="" src="img/test.jpg" class="img-rounded"></td>
+									<td>David Barka</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Ola Nordmann</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Ola Nordmann</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Ola Nordmann</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Ola Nordmann</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				
+			</div>
 		</div>
 	</div>
 	<script src="js/bootstrap.js"></script>
