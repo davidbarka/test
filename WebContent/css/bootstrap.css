@@ -1954,7 +1954,7 @@ table {
 
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
-  background-color: #ffffff;
+  background-color: #c9e6ff;
 }
 
 table [class*=span],
