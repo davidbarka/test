@@ -23,9 +23,9 @@
 		<div class="navbar">
 			<div class="navbar-inner">
 				<a class="brand" href="#"><img alt="" src="img/logo_mini.png" class="offset1"></a>
-				<div class="btn-group pull-right">
+				<div class="btn-group pull-right form-inline">
 					<a class="btn dropdown-toggle btn-inverse btn-large" data-toggle="dropdown"
-						href="#"> Language <span class="caret"></span>
+						href="#"><small> Language </small><span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
 						<!-- dropdown menu links -->
@@ -43,7 +43,7 @@
 				<!-- left side -->
 				<div class="hero-unit span8">
 					<h1>MentorFind</h1>
-					<p>Find mentors and trainees with the right qualifications, all
+					<p>Find mentors and trainees with the right qualifications, share knowledge, all
 						in one place.</p>
 					<p>
 						<a class="btn btn-info btn-large" href="#dropDownMsg" data-toggle="modal">Learn more</a>
@@ -59,14 +59,16 @@
 								<input type="password" class="span8" placeholder="Password" />
 								<a href="testSite.html" class="btn btn-primary">Sign in</a>
 							</div> <br />
-							<h4>
+							<h5>
 								New to MentorFind? <small>Sign up</small>
-							</h4>
+							</h5>
 							<input type="text" class="span12" placeholder="Full name" /><br />
 							<input type="text" class="span12" placeholder="Email" /><br />
 							<input type="password" class="span12" placeholder="Password" />
 							<br />
-							<a class="btn btn-warning pull-right" href="#sign"><strong>Sign up for MentorFind</strong></a><br/>
+							<a id="example" class="btn btn-warning pull-right" href="#sign" rel="popover"
+							data-content="Sign up for MentorFind is not yet ready, please come back another time!" 
+							data-original-title="Sign up!">Sign up for MentorFind</a><br/>
 						</form>
 					</div>
 				</div>
@@ -78,7 +80,7 @@
 	<!-- Popover -->
 	<script>  
 $(function ()  
-{ $("#example").popover({placement:'top'});  
+{ $("#example").popover({placement:'bottom'});  
 });  
 </script>  
 </body>
