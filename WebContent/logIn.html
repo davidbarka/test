@@ -13,12 +13,20 @@
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 }
+.fullBG {
+	background: url("img/login_bg.jpg");
+	background-attachment: fixed;
+		background-repeat:no-repeat;
+	background-size:cover;
+	-moz-background-size: cover;
 
+}
 .padding {
 	padding: 90px;
 }
 </style>
-<body class="contentBox">
+<body class="fullBG">
+
 <!-- top menu -->
 	<div class="navbar navbar-fixed-top navbar-inverse">
 		<div class="navbar">
@@ -77,10 +85,12 @@
 			</div>
 		</div>
 		<div class="padding"></div>
+		<form class="well well-small">
 		<div class="form-inline pagination-centered">
 			<a href="mailto:davidbarka@outlook.com" >Feedback</a>
 			<label><small>MentorFind 2012</small></label>
 		</div>
+		</form>
 	</div>
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/bootstrap.js"></script>
