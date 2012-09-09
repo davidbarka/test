@@ -21,6 +21,15 @@
 	background-size:cover;
 	-moz-background-size: cover;
 }
+.loginLetter{
+  padding: 60px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+          color: white;
+          text-shadow: #000000 3px 3px 8px;
+}
 
 .shadow {
   box-shadow: 5px 5px 8px -1px #222;
@@ -54,12 +63,12 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<!-- left side -->
-				<div class="hero-unit span8 shadow">
+				<div class="loginLetter span8 ">
 					<h1>MentorFind</h1>
-					<p>Find mentors and trainees with the right qualifications and share knowledge, all
+					<p style="font-size: 14pt;">Find mentors and trainees with the right qualifications and share knowledge, all
 						in one place.</p>
 					<p>
-						<a class="btn btn-info btn-large" href="#dropDownMsg" data-toggle="modal">Learn more</a>
+						<a class="btn btn-info" href="#dropDownMsg" data-toggle="modal">Learn more</a>
 						<!-- <a href="#" id="example" class="btn btn-info btn-large" rel="popover"  
 						data-content=""data-original-title="Twitter Bootstrap Popover">Info</a> -->
 					</p>
@@ -72,10 +81,10 @@
 							<div class="form-inline">
 								<input type="password" class="span8" placeholder="Password" />
 								<a href="testSite.html" class="btn btn-primary">Sign in</a>
-							</div> <br />
+							</div> <br/>
 							<h5>
 								New to MentorFind? <small>Sign up</small>
-							</h5>
+							</h5><hr>
 							<input type="text" class="span12" placeholder="Full name" /><br />
 							<input type="text" class="span12" placeholder="Email" /><br />
 							<input type="password" class="span12" placeholder="Password" />
@@ -88,8 +97,9 @@
 				</div>
 			</div>
 		</div>
+		<br/><br/>
 		<!-- <div class="padding"></div> -->
-		<div class="form-inline" style="position:absolute; bottom:3%; left:10%;">
+		<div class="form-inline pagination-centered" style="text-shadow: #000000 3px 3px 8px;">
 			<a href="mailto:mentorfind@outlook.com" style="color: white;">Feedback</a> 
 			<a href="http://interfacelift.com/wallpaper/details/3062/stormy_ocean.html" style="color:white;">Wallpaper</a>
 			<label style="color: #dcdcdc;"><small>© 2012 MentorFind</small></label>
@@ -104,6 +114,7 @@ $(function ()
 });  
 </script>  
 </body>
+
 <!-- Modal -->
 <div id="dropDownMsg" class="modal hide fade in" style="display: none;">
 	<div class="modal-header">
