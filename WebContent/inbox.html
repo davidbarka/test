@@ -13,6 +13,10 @@
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 }
+.padding {
+	padding: 20px;
+}
+
 .shadow {
   box-shadow: 5px 5px 8px -1px #222;
 }
@@ -21,7 +25,7 @@
 <div class="container">
 		<!-- top menu -->
 		<br />
-		<div class="navbar">
+		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner shadow">
 				<a class="brand" href="testSite.html">MentorFind</a>
 				<ul class="nav">
@@ -34,7 +38,7 @@
 														<li><hr></li>
 							<li><a href="logIn.html"><i class="icon-off"></i> Log out</a></li>
 						</ul></li>
-					<li><a href="inbox.html"><i class="icon-envelope"></i> Inbox</a></li>
+					<li class="active"><a href="inbox.html"><i class="icon-envelope"></i> Inbox</a></li>
 					<li><a href="Contacts.html"><i class="icon-th-list"></i> Contacts</a></li>
 					<li><a href="#"><i class="icon-briefcase"></i> CV</a></li>
 				</ul>
@@ -42,7 +46,8 @@
 					<input type="text" class="search-query" placeholder="Search">
 				</form>
 			</div>
-			<br />
+			</div>
+			<div class="padding"></div>
 			<div class="row-fluid">
 			
 				<!--left column -->
@@ -157,7 +162,6 @@
 
 				
 			</div>
-		</div>
 
 	</div>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
